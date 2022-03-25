@@ -15,3 +15,7 @@ let nested = {
         bool : true
     }
 }
+Object.freeze(obj)
+Object.freeze(arr)
+Object.freeze(nested.obj)
+Object.freeze(nested.arr)
