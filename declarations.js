@@ -1,4 +1,4 @@
-escape = "\'\\\/\"\`"
+escapeStr = "\'\\\/\"\`"
 let arr = [4,"2"]
 
 let obj = {
@@ -9,11 +9,7 @@ let obj = {
 }
 let nested = {
     arr : [4,undefined,'2'],
-    obj = {
-        str : 'string',
-        num : 5
-        bool : true
-    }
+    obj : {str : 'string', num : 5, bool : true}
 }
 Object.freeze(obj)
 Object.freeze(arr)
