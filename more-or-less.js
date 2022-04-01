@@ -1,12 +1,12 @@
 function more (a){
-    console.log(arguments[0]+1)
+    return(a+1)
 }
 function less (b){
-    console.log(arguments[0]-1)
+    return(b-1)
 }
-function add (c){
-    console.log(arguments[0]+arguments[0])
+function add (c,d){
+    return(c+d)
 }
-function sub (d){
-    console.log(arguments[0]-arguments[0])
+function sub (e,f){
+    return(e-f)
 }
