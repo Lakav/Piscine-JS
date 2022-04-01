@@ -1,4 +1,4 @@
 function concatStr(a,b){
-    return String(a+b)
+    return String(a)+String(b)
 }
-console.log(concatStr("pu","te"))
+console.log(concatStr(1,2))
