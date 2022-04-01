@@ -5,5 +5,5 @@ function last(b){
     return b.last
 }
 function kiss(c){
-    return [a,b]
+    return [first,last]
 }
