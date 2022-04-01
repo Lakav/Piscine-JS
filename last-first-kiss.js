@@ -1,9 +1,11 @@
 function first(a){
-    return a.first
+    return a[0]
 }
 function last(b){
-    return b.last
+    return b[b.length-1]
 }
-function kiss(c){
-    return [first,last]
+function kiss(n){
+    return [n[n.length-1],n[0]]
 }
+
+console.log(kiss("pute"))
