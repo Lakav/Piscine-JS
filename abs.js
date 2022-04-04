@@ -1,9 +1,9 @@
 function isPositive(a){
     if(a<0){
-        return true
+        return false
     }
     else{
-        return false
+        return true
     }
 
 }
