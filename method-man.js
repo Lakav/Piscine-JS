@@ -1,4 +1,4 @@
-function word(a){
+function words(a){
     return a.split(" ")
 }
 function sentence(b){
