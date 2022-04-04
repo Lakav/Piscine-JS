@@ -7,5 +7,3 @@ function last(b){
 function kiss(n){
     return [n[n.length-1],n[0]]
 }
-
-console.log(kiss("pute"))
