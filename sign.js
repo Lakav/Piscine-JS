@@ -16,7 +16,11 @@ function sameSign (b,c){
     if(b<0 & c<0){
         return true
     }
+    if(b==0 & c==0){
+        return true
+    }
     else{
         return false
     }
 }
+console.log(sameSign(0,0))
