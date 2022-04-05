@@ -54,7 +54,34 @@ function divide (a,b){
 }
 
 function modulo (a,b){
-
+    let res = 0
+    if(a>0 && b>0){
+        for(res; a>b ;res++){
+            a-=b
+        }
+    }
+    if(a<0 && b<0){
+        a = -a
+        b = -b
+        for(res; a>b ;res++){
+            a-=b
+        }
+        a = -a
+    }
+    if(a<0){
+        a = -a
+        for(res; a>b ;res++){
+            a-=b
+        }
+        a = -a
+    }
+    if(b<0){
+        b = -b
+        for(res; a>b ;res++){
+            a-=b
+        }
+    }
+    return a
 }
 
 //console.log(multiply(10,20))
