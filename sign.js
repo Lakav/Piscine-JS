@@ -10,13 +10,13 @@ function sign (a){
     }
 }
 function sameSign (b,c){
-    if(b>0 & c>0){
+    if(b>0 && c>0){
         return true
     }
-    if(b<0 & c<0){
+    if(b<0 && c<0){
         return true
     }
-    if(b==0 & c==0){
+    if(b==0 && c==0){
         return true
     }
     else{
