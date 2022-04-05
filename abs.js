@@ -8,10 +8,11 @@ function isPositive(a){
 
 }
 function abs(b){
-    if (b<0){
+    if (b>=0){
         return b
     }
     else{
         return b*-1
     }
 }
+console.log(abs(-6))
