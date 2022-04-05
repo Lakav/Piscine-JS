@@ -5,8 +5,8 @@ function isPositive(a){
     else{
         return true
     }
-
 }
+
 function abs(b){
     if (b>=0){
         return b
@@ -15,4 +15,5 @@ function abs(b){
         return b*-1
     }
 }
+
 console.log(abs(-6))
