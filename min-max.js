@@ -2,21 +2,17 @@ function max (a,b){
     if(a>b){
         return a
     }
-    if(b<a){
-        return b
-    }
     else{
-        return "same value"
+        return b
     }
 }
 function min (c,d){
     if(c>d){
         return d
     }
-    if(c<d){
+    else{
         return c
     }
-    else{
-        return "same value"
-    }
 }
+console.log(max(-1, 10))
+console.log(max(-13.2, -222))
