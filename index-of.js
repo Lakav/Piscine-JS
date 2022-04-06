@@ -1,6 +1,3 @@
-const t = (f) => tests.push(f)
-const bigArray = [...Array(999).keys(), ...Array(999).keys()]
-
 function indexOf(arr,value,pos=0){
     for(let i=pos; i<arr.length; i++){
         if(arr[i] == value){
