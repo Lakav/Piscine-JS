@@ -14,3 +14,14 @@ function lastIndexOf(arr,value,pos=arr.length){
     }
 return -1
 }
+function includes(arr,value){
+    let i=value
+    if(i in arr){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+console.log(includes([1, 2, 3, 4, 5, 4, 3, 2, 1], 2))
