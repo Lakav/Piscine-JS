@@ -1,4 +1,3 @@
-const t = (f) => tests.push(f)
 function indexOf(arr,value,pos=0){
     for(let i=pos; i<arr.length; i++){
         if(arr[i] == value){
@@ -23,5 +22,3 @@ function includes(arr,value){
     }
     return false
 }
-console.log(includes([1, 2, 3, 4, 5, 4, 3, 2, 1], 2))
-console.log(includes([0, 0, t, t], t))
