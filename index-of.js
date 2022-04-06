@@ -16,7 +16,7 @@ return -1
 }
 function includes(arr,value){
     for(const i of arr){
-        if(i in arr){
+        if(i == value){
             return true
         }
     }
