@@ -1,3 +1,4 @@
+const t = (f) => tests.push(f)
 function indexOf(arr,value,pos=0){
     for(let i=pos; i<arr.length; i++){
         if(arr[i] == value){
@@ -15,13 +16,12 @@ function lastIndexOf(arr,value,pos=arr.length){
 return -1
 }
 function includes(arr,value){
-    let i=value
-    if(i in arr){
-        return true
+    for(const i of arr){
+        if(i in arr){
+            return true
+        }
     }
-    else{
-        return false
-    }
+    return false
 }
-
 console.log(includes([1, 2, 3, 4, 5, 4, 3, 2, 1], 2))
+console.log(includes([0, 0, t, t], t))
