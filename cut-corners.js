@@ -61,16 +61,10 @@ function trunc(num){
 
         return (numPositive - mod)* -1
     }
-    
+
     else {
         let mod = num%1
         return num - mod
     }
 }
 
-
-console.log(trunc(3.2))
-console.log(trunc(3.7))
-console.log(trunc(-3.2))
-console.log(trunc(-3.7))
-console.log(trunc(0))
