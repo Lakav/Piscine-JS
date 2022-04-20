@@ -99,3 +99,4 @@ function trunc(num){
     }
 }
 
+console.log(round(-4,20))
