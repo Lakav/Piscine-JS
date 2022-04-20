@@ -30,6 +30,7 @@ function modulo (a,b){
 }
 
 function round(num){
+    console.log(1, num)
 
     if(num < 0){
 
@@ -56,6 +57,7 @@ function round(num){
 }
 
 function ceil(num){
+    console.log(2, num)
     if(num < 0){
         let numPositive = num * -1
         let mod = modulo(numPositive, 1)
@@ -71,6 +73,7 @@ function ceil(num){
 }
 
 function floor(num){
+    console.log(3, num)
     if(num < 0){
         let numPositive = num * -1
         let mod = modulo(numPositive, 1)
@@ -86,6 +89,7 @@ function floor(num){
 }
 
 function trunc(num){
+    console.log(4, num)
     if (num < 0){
         let numPositive = num * -1
         let mod = modulo(numPositive, 1)
@@ -99,4 +103,4 @@ function trunc(num){
     }
 }
 
-console.log(round(-4,20))
+console.log(trunc(688789677856675677578.7760))
