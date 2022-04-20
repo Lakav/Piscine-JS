@@ -61,9 +61,7 @@ function trunc(num){
 
         return (numPositive - mod)* -1
     }
-    if (num == 0){
-        return 0
-    }
+    
     else {
         let mod = num%1
         return num - mod
